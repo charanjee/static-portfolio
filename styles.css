@@ -1,0 +1,546 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.img{
+    border-radius: 20px;
+    margin: auto;
+    padding: 0%;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color: #333;
+}
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    color: #754d77;
+    text-decoration: none;
+    background-color: #e4dae0;
+    border-radius: 5px;
+}
+section {
+    padding: 50px;
+}
+.Our{
+    background-color: #333;
+    color: yellowgreen;
+    padding: 10px;
+}
+#home{
+    text-align: center
+    
+}
+
+.con-info{
+    margin-left: 0px;
+    text-align: justify;
+}
+.com-add{
+    text-align: justify;
+}
+
+
+#cont{
+    display: flex;
+    flex-direction: column;
+    background-image: url("image19.jpg");
+    width: 100%;
+    height: auto;
+    height: 470px;
+    width: 400px;
+    border: 1px solid rgb(219, 209, 209);
+    align-items: center;
+    margin: auto;
+    margin-top: 2px;
+    margin-left: 370px;
+    background-color: rgba(red,blue,0,0.5);
+    box-shadow: inset -5px -5px rgba(230, 227, 227, 0.5);
+    border-radius: 35px;
+
+}
+#cont .contact-us{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+}
+.name,.email,.message{
+    color: white;
+    font-style: bold;
+    font-size: 1rem;
+}
+.box{
+    padding: 12px;
+    margin: 5px;
+    width: 65%;
+    border: 1px solid #dfdada;
+    outline: none;
+    border-radius: 20px;
+    box-shadow:inset -3px -3px rgba(237, 231, 231, 0.5);
+    color: white;
+    text-align: center;
+}
+.submit{
+    padding: 10px 5px;
+    margin-top: 5px;
+    border-bottom: 8px;
+    width: 30%;
+    background-color: rgba(128, 124, 124, 0.5);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.submit:hover{
+    color: rgba(10, 240, 30, 0.661);
+    box-shadow: 1px 1px #717171;
+}
+.message-box{
+    border: 1px solid blur;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 5px;
+    box-shadow:inset -3px -3px rgba(0,0,0,0.5);
+    color: #0a0a0a;
+    margin-top: -2px;
+}
+.contact{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #444747;
+    color: white;
+    font-style: italic;
+}
+.contact:hover{
+    background-color: #444747;
+    border-radius: 20px;
+    padding: 10px;
+    font-style: italic;
+    box-shadow: 2px 2px rgba(0,0,0.5,0.5);
+    color: #4be5aa;
+}
+.descrition{
+    text-align: center;
+}
+.alc{
+    width: 1000;
+    height: 500px;
+    margin-left: 320px;
+}
+.us{
+    color: #717171;
+    text-align: center;
+    text-decoration: underline;
+
+}
+h2{
+    color: rgb(7, 228, 248);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.slideshow-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Your existing CSS styles */
+
+.marquee-container {
+    overflow: hidden;
+}
+
+.marquee-container marquee {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+}
+
+.marquee-container marquee ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.marquee-container marquee ul li {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 2rem;
+    text-decoration: solid;
+    border: 2px dotted white;
+   
+}
+/* Your existing CSS styles */
+
+.services-container {
+    overflow: hidden;
+}
+
+.services-container ul {
+    padding: 0;
+    margin: 0;
+    animation: slide-left 20s linear infinite; /* Adjust the duration as needed */
+}
+
+.services-container ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Keyframe animation */
+@keyframes slide-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.our-gallery{
+    background-color: #333;
+    color:rgb(50, 205, 125);
+    padding: 10px;
+}
+.gal{
+    text-decoration: none;
+    color: rgb(106, 185, 165);
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    
+}
+
+.gallery-item {
+    overflow: hidden;
+    padding: 12px;
+    background-color: rgb(9, 9, 9);
+}
+
+.gallery-item:hover{
+    overflow: hidden;
+    padding: 12px;
+    background-color: #4be5aa;
+}
+
+.gallery-item img {
+    width: 100%;
+    /*height: auto;*/
+}
+
+.contact-icon {
+    position: fixed;
+    bottom: 70px; /* Adjust vertical position */
+    width: 70px; /* Adjust icon size */
+    height: auto;
+    cursor: pointer;
+    z-index: 9999; /* Ensure icons are above other content */
+    transition: transform 0.3s ease-in-out;
+}
+
+#contact-icon {
+    left: 10px; /* Adjust horizontal position for contact icon */
+}
+
+#whatsapp-icon {
+    right: 20px; /* Adjust horizontal position for WhatsApp icon */
+}
+
+
+.contact-icon img {
+    width: 100%;
+    border-radius: 35px;
+    left: 5px;
+}
+
+.contact-icon span {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    opacity: 100px;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.contact-icon:hover {
+    transform: translateY(-5px); /* Adjust hover effect */
+}
+
+.contact-icon:hover span {
+    opacity: 1;
+}
+#whatsapp-icon {
+    position: fixed;
+    bottom: 75px; /* Adjust vertical position */
+    right: 20px; /* Adjust horizontal position */
+    width: 70px; /* Adjust icon size */
+    height: auto;
+    cursor: pointer;
+    z-index: 9999; /* Ensure icons are above other content */
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+#whatsapp-icon img {
+    width: 100%;
+    border-radius: 35px;
+}
+
+#whatsapp-icon span {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    opacity: 100px;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#whatsapp-icon:hover {
+    transform: translateY(-5px); /* Adjust hover effect */
+}
+
+#whatsapp-icon:hover span {
+    opacity: 1;
+}
+
+
+.addict{
+    color: #717171;
+}
+
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px; 
+    background-color: #0a0a0a;
+}
+
+.contact-info,
+.cont,
+.company-address {
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+.contact-info h2,
+.cont h2,
+.company-address h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contact-info p,
+.company-address p {
+    margin: 5px 0;
+    color: white;
+}
+
+#social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social h1 {
+    margin-right: 20px;
+    color: #4be5aa;
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+
+.social img {
+    width: 70px;
+    height: 65px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+.cont {
+    flex: 1; /* Fill remaining space */
+    border: none;
+}
+
+.cont h2 {
+    margin-bottom: 20px;
+    margin-left: 170px;
+    margin-top: 5px;
+    color:cyan;
+}
+
+.cont label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 400px;
+}
+
+.cont input,
+.cont textarea {
+    width: calc(100% - 20px); /* Adjusted width to account for margins */
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 330px;
+    height: 30px;
+    margin-left: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.cont textarea {
+    resize: none;
+}
+
+.cont button {
+    padding: 10px;
+    margin-left: 330px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.cont button:hover {
+    background-color: #555;
+    color:#4be5aa;
+    box-shadow: 3px 3px #4be5aa;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
